@@ -8,7 +8,7 @@ public class Proof {
 	TheoremSet mytheorems;
 	LineNumber valueholder = new LineNumber("1");
 	
-	public HashMap<LineNumber, LinkedList> myLineNumbers = new HashMap<LineNumber, LinkedList>();
+	public static HashMap<LineNumber, LinkedList> myLineNumbers = new HashMap<LineNumber, LinkedList>();
 
 	public Proof (TheoremSet theorems) {
 		mytheorems = theorems;
